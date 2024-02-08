@@ -1,8 +1,10 @@
 Package: jsme
-Title: What the Package Does (one line, title case)
+Title: Molecular Editor for Shiny use JSME Editor
 Version: 0.0.0.9000
 Authors@R: c(
- person("Abhik", "Seal", ,"abhik1368@gmail.com", role = c("aut", "cre"))
+ person("Abhik", "Seal", ,"abhik1368@gmail.com", role = c("aut")),
+ person("James", "Wade", , "james@jameshwade.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9740-1905"))
    )
 Description: JSME Editor on R shiny
 License: MIT + file LICENSE
