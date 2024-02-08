@@ -1,6 +1,6 @@
 Package: jsme
 Title: Molecular Editor for Shiny use JSME Editor
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: c(
  person("Abhik", "Seal", ,"abhik1368@gmail.com", role = c("aut")),
  person("James", "Wade", , "james@jameshwade.com", role = c("aut", "cre"),
