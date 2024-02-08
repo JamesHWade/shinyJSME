@@ -1,12 +1,12 @@
 Package: jsme
-Title: Molecular Editor for Shiny use JSME Editor
+Title: JSME: JavaScript Molecular Editor for Shiny Applications
 Version: 0.0.0.9001
 Authors@R: c(
  person("Abhik", "Seal", ,"abhik1368@gmail.com", role = c("aut")),
  person("James", "Wade", , "james@jameshwade.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9740-1905"))
    )
-Description: JSME Editor on R shiny
+Description: This package integrates the JavaScript Molecular Editor (JSME) into R Shiny applications, enabling users to draw, edit, and view molecules directly within their Shiny UI. The JSME is a powerful, web-based chemical structure editor that supports various chemical file formats, making it an invaluable tool for researchers and educators in the field of chemistry and related areas. With this package, Shiny app developers can easily incorporate molecular editing capabilities into their apps, enhancing interactivity and functionality for end-users.
 License: MIT + file LICENSE
 Depends: 
     R (>= 3.2.5)
@@ -15,3 +15,6 @@ LazyData: true
 RoxygenNote: 7.3.1
 Imports: 
     htmlwidgets
+Suggests: 
+    bslib,
+    shiny

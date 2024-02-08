@@ -1,6 +1,4 @@
-library(shiny)
-library(bslib)
-library(jsme)
+require("shiny", "bslib", "jsme")
 
 ui <- page_sidebar(
   title = "Shiny JSME",
